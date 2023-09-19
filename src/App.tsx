@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Board from './pages/Board';
+import BoardListPage from './pages/Board';
 import Main from './pages/Main';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Main />} />
-          <Route path='/board' element={<Board />} />
+          <Route path='/board' element={<BoardListPage />} />
 
         </Routes>
       </BrowserRouter>
