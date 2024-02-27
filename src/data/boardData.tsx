@@ -1,8 +1,10 @@
-export const data = [
+import { Board } from "../pages/BoardItemPage";
+
+export const data: Board[] = [
   {
     id: 0,
-    title: "?!",
-    content: "이게 맞나요...?",
+    title: "제목 1",
+    content: "내용 1",
     comment: [
       {
         id: 0,
@@ -17,8 +19,8 @@ export const data = [
   },
   {
     id: 1,
-    title: "제목",
-    content: "대충 내용 엄청 긴거",
+    title: "제목 2",
+    content: "내용 2",
     comment: [
       {
         id: 1,
@@ -33,8 +35,8 @@ export const data = [
   },
   {
     id: 2,
-    title: "제목",
-    content: "대충 내용 엄청 긴거",
+    title: "제목 3",
+    content: "내용 3",
     comment: [
       {
         id: 2,
